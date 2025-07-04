@@ -30,6 +30,17 @@ All data is provided in the `data/` folder:
 - `reproduce_all.m`: Master script to reproduce all figures and tables (optional).
 
 ---
+## ⚙️ Functions
+
+The following custom MATLAB functions are used throughout the analysis:
+
+| File                         | Description                                           |
+|------------------------------|-------------------------------------------------------|
+| `fMaxFilter.m`               | Realizes max (min), drawdown (up), and lead time processes |
+| `fBearBullDating.m`          | Implements the dating algorithm for turning points   |
+| `fGoodmanKruskal.m`          | Computes Goodman and Kruskal’s gamma statistic       |
+| `fSsfMBfiltering.m`          | State space decomposition model                      |
+| `fAugmentedStateSmoother.m`  | Kalman filtering and smoothing implementation        |
 
 ## 💻 Computing Environment
 
