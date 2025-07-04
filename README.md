@@ -1,7 +1,7 @@
 # Reproducibility Package for: Ups and (Draw)downs
 
 **Date assembled:** 2025-07-04  
-**Authors:**  
+**Author:**  
 - Tommaso Proietti – University of Rome Tor Vergat
   Email: tommaso.proietti@uniroma2.it 
  
