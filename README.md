@@ -12,7 +12,7 @@
 | File        | Description                                 | Format | Source         |
 |-------------|---------------------------------------------|--------|----------------|
 | `^GSPC.csv` | Daily S&P 500 index                         | CSV    | Yahoo Finance  |
-| `sp500.mat` | Time series of 503 S&P500 component stocks | MAT    | Proprietary    |
+| `sp500.mat` | Time series of 501 S&P500 component stocks closing prices | MAT    | Proprietary - data were downloaded from Yahoo finance and transformed into a Matlab Timetable   |
 
 ### 🔹 Generated Data Files
 
