@@ -36,8 +36,7 @@ These MATLAB scripts reproduce the tables and figures from various sections of t
 
 | File                         | Description                                           |
 |------------------------------|-------------------------------------------------------|
-| `sSP500_Figure1Table1.m`     | S&P500: maxima, minima, drawdown, drawup and current lead time, and their characteristics 
-                                 Produces Figure 1 and Table 1)|
+| `sSP500_Figure1Table1.m`     | S&P500: maxima, minima, drawdown, drawup and current lead time, and their characteristics (produces Figure 1 and Table 1)|
 | `sSP500_Peaks_Troughs.m`     | Identifies peaks and troughs in the S&P500 index (Figure 2) |
 
 ### 🔹 Section 4: Multivariate Dating and Tau-Drawdowns
