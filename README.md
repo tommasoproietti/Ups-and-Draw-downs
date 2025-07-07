@@ -57,7 +57,7 @@ These MATLAB scripts reproduce the tables and figures from various sections of t
 
 | File              | Description                                  |
 |-------------------|----------------------------------------------|
-| `sSP500_robust.m` | Robust estimates of drawdowns (_
+| `sSP500_robust.m` | Robust estimation of drawdowns (section 7.3 of the paper)
  ---
 ## 📁 Repository Structure
 
