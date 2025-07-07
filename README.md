@@ -53,7 +53,17 @@ These MATLAB scripts reproduce the tables and figures from various sections of t
 | `sSP500_Multivariate.m`   | Stylized facts - Generates Figures 3 and 4 (correlation structure) |
 | `sSP500_CDaR_tau_alpha.m`        | Analysis of CDaR - Produces Figures 5 and 6 (CDaR statistics)        |
 
-### 🔹 Section 6.3: Robust Estimation
+### 🔹 Section 6: Forecasting drawdowns
+
+| File                            | Description                                       |
+|----------------------------------|---------------------------------------------------|
+| `sRollingForecasts_PMC.m`   | Rolling forecasts Particle Monte Carlo Method |
+| `sRollingForecasts_D_ARMA_ARIMA_HAR.m`        | Rolling forecasts based on direct ARMA, ARIMA(0,1,1) and HAR model for drawdowns      |
+| `sRollingForecasts_C_HAR.m`        | Rolling forecasts based on conditional HAR approach      |
+| `sRollingForecasts_C_HAR.m`        | Rolling forecasts based on conditional factor predictor     |
+| `sRollingForecasts_Results.m`        | Accuracy metrics - Constructs Tables 5-6    |
+
+### 🔹 Section 7.3: Robust Estimation
 
 | File              | Description                                  |
 |-------------------|----------------------------------------------|
