@@ -78,8 +78,10 @@ The following custom MATLAB functions are used throughout the analysis:
 | `fMaxFilter.m`               | Realizes max (min), drawdown (up), and lead time processes |
 | `fBearBullDating.m`          | Implements the dating algorithm for turning points   |
 | `fGoodmanKruskal.m`          | Computes Goodman and Kruskal’s gamma statistic       |
-| `fSsfMBfiltering.m`          | State space decomposition model                      |
-| `fAugmentedStateSmoother.m`  | Kalman filtering and smoothing implementation        |
+| `fSsfMBfiltering.m`          | State space decomposition model (used in section 7.3 for robust drawdown estimation                     |
+| `fACGF.m`                    | Autocovariance generating function State space decomposition model (used by fSsfMBfiltering.m)             |
+| `fSpectralFactorisation.m`          | Spectral factorisation, based on Sayed and Kailath, 2001  (used by fSsfMBfiltering.m)                      |
+| `fAugmentedStateSmoother.m`  | Augmented Kalman filtering and smoothing (estimation of lowpass component)        |
 
 ## 💻 Computing Environment
 
