@@ -70,14 +70,6 @@ These MATLAB scripts reproduce the tables and figures from various sections of t
 |-------------------|----------------------------------------------|
 | `sSP500_robust.m` | Robust estimation of drawdowns (section 7.3 of the paper)
  ---
-## 📁 Repository Structure
-
-- `data/`: MATLAB `.mat` files and CSVs used for analysis and forecasting.
-- `scripts/`: MATLAB scripts for generating all figures and tables in the paper.
-- `functions/`: Custom MATLAB functions used in the scripts.
-- `README.md`: This document.
-- `LICENSE`: License information (e.g., MIT, CC-BY-NC).
-- `reproduce_all.m`: Master script to reproduce all figures and tables (optional).
 
 ---
 ## ⚙️ Functions
