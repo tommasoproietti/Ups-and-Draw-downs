@@ -43,8 +43,8 @@ These MATLAB scripts reproduce the tables and figures from various sections of t
 
 | File                                  | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
-| `sSP500_Peaks_Troughs_Multivariate.m` | Detects peaks/troughs in the 503 component series         |
-| `sSP500_tau_multivariate.m`          | Computes tau-drawdowns and tau-drawups of components      |
+| `sSP500_Peaks_Troughs_Multivariate.m` | Detects peaks/troughs and identifies bull and bear phases in the component series. The output is in the Matlab file sSP500_Peaks_Troughs_Multivariate.mat |
+| `sSP500_tau_multivariate.m`          | Computes tau-drawdowns and tau-drawups of component series for tau ranging from 1 to 65. The output is in the Matlab file sSP500_tau_multivariate.mat|
 
 ### 🔹 Section 5: Dependence Structure
 
