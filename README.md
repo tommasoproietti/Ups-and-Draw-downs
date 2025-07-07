@@ -50,8 +50,8 @@ These MATLAB scripts reproduce the tables and figures from various sections of t
 
 | File                            | Description                                       |
 |----------------------------------|---------------------------------------------------|
-| `sSP500_Correlation_Results.m`   | Generates Figures 3 and 4 (correlation structure) |
-| `sSP500_CDaR_tau_alpha.m`        | Produces Figures 5 and 6 (CDaR statistics)        |
+| `sSP500_Multivariate.m`   | Stylized facts - Generates Figures 3 and 4 (correlation structure) |
+| `sSP500_CDaR_tau_alpha.m`        | Analysis of CDaR - Produces Figures 5 and 6 (CDaR statistics)        |
 
 ### 🔹 Section 6.3: Robust Estimation
 
