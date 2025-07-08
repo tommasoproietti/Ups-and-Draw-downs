@@ -102,7 +102,9 @@ b1.FaceColor = 'b'; b2.FaceColor = 'k';
 b3 = bar(vdates(ctau+1:end),  vbear_ind,  "BarWidth",1 ); hold on;
 plot(vdates(ctau+1:end),  (vp(ctau+1:end)-min(vp))./range(vp), LineWidth=.5, Color='r'); hold on;
 b3.FaceColor = [0.9 0.9 0.9];
-load("sSP500_Peaks_Troughs_Multivariate.mat", "vbear_diffusion")
+%load("sSP500_Peaks_Troughs_Multivariate.mat", "vbear_diffusion")
+load("sSP500_Peaks_Troughs_Multivariate_Bear_Diff.mat", "vbear_diffusion")
+
 plot(vdates , vbear_diffusion, 'b', LineWidth=1);
 orient(gsd,'landscape')
 gsd.Position = [-50 -50 1350 850];  
