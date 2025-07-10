@@ -92,11 +92,11 @@ The following custom MATLAB functions are used throughout the analysis:
 - **Language**: MATLAB R2023a  
 - **Toolboxes used**: Statistics and Machine Learning, Econometrics Toolbox, Parallel Computing  
 - **Platform**: Windows 
-- **Expected runtime**: ~ 30 minutes on Intel i7, 16 GB RAM
-- **Special setup**:  parallel computing enhances speed
+- **Expected runtime**: ~ 30 minutes on Intel i7, 16 GB RAM (Execution of sSP500_tau_multivariate.m is slow due to the large computational burden. Generated data files could not be uploaded due to their size)
+- **Special setup**:  parallel computing enhances speed (required for running sSP500_tau_multivariate.m).
 
 ---
 
 ## 🔧 Running the Reproducibility Check
 
-Each script is self-contained and will generate the corresponding tables/figures as in the paper.  
+Each script (Matlab file beginning with "s" and with extension ".m") is self-contained and will generate the corresponding tables/figures as in the paper.  
