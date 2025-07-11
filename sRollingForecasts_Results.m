@@ -11,8 +11,13 @@ mRMSE       = [vnumeraire; sqrt(mean(mfError_arma.^2)); sqrt(mean(mfError_arima.
 mRMSEratios = [sqrt(mean(mfError_arma.^2)); sqrt(mean(mfError_arima.^2)); sqrt(mean(mfError_har.^2)); ...
                sqrt(mean(mfError_cond_har.^2)); sqrt(mean(mfError_cond.^2))] ./ vnumeraire  ;
 mRes        = [vnumeraire; mRMSEratios];
-mA = [mRes(:,1:11)'; mRes(:,12:end)'];
+mA = [mRes(:,1:11)'; mRes(:,12:end)']; % table 5
 writematrix(mA, 'rRollingForecast_results.xlsx')
+varNames = {'Horizon', 'Particle MC', 'D_ARMA', 'D_ARIMA_0_1_1', ...
+            'D_HAR', 'C_HAR', 'C_Factor_HAR'};
+% Convert mA to a table
+T = array2table([(1:22)', mA], 'VariableNames', varNames);
+disp(T);
 %% Diebold Mariano Test, Table 5
 mDMtests  = NaN(22,5);
 for h =1:22
@@ -33,3 +38,8 @@ for h =1:22
 end
 writematrix(mDMtests, 'rRollingForecast_results_DM.xlsx')
  
+varNames = {'Horizon',  'D_ARMA', 'D_ARIMA_0_1_1', ...
+            'D_HAR', 'C_HAR', 'C_Factor_HAR'};
+%  Table 6
+T = array2table([(1:22)', mDMtests], 'VariableNames', varNames);
+disp(T);
